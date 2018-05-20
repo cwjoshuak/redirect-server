@@ -1,20 +1,10 @@
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/1342803/36623515-7293b4ec-18d3-11e8-85ab-4e2f8fb38fbd.png" width="320" alt="API Template">
-    <br>
-    <br>
-    <a href="http://docs.vapor.codes/3.0/">
-        <img src="http://img.shields.io/badge/read_the-docs-2196f3.svg" alt="Documentation">
-    </a>
-    <a href="http://vapor.team">
-        <img src="http://vapor.team/badge.svg" alt="Slack Team">
-    </a>
-    <a href="LICENSE">
-        <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
-    </a>
-    <a href="https://circleci.com/gh/vapor/api-template">
-        <img src="https://circleci.com/gh/vapor/api-template.svg?style=shield" alt="Continuous Integration">
-    </a>
-    <a href="https://swift.org">
-        <img src="http://img.shields.io/badge/swift-4.1-brightgreen.svg" alt="Swift 4.1">
-    </a>
-</center>
+# server-redirect
+
+I just needed something to easily redirect from a simple url to a specific ip-address or another more complicated url.
+
+## How?
+Open up `Sources/App/routes.swift` and edit your route as needed.
+`$ vapor cloud deploy`  to deploy on [Vapor Cloud](http://vapor.cloud) and get a very simple url.
+
+## Uses so far
++ Used to route [AngelHack Nationwide's](https://github.com/cwjoshuak/angelhack-nationwide) python flask backend which was running on AWS EC2. [url --> ip address]
